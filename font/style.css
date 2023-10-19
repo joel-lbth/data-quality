@@ -1,0 +1,68 @@
+
+section:not(#title-slide) h1, section:not(#title-slide) h2 {
+  font-family: SpaceMono !important;
+  font-size:larger !important
+}
+li, blockquote {
+  background-color:white; 
+  color:black;
+  opacity:.9;
+  padding:.9rem;
+}
+
+div.refs {
+  background-color:white; 
+  color:black;
+}
+
+img {
+  background-color:white; 
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible";
+  src: url("WOFF/Atkinson-Hyperlegible-Regular-102.woff") format('woff');
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible";
+  src: url("WOFF/Atkinson-Hyperlegible-Bold-102.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible";
+  src: url("WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AtkinsonHyperlegible";
+  src: url("WOFF/Atkinson-Hyperlegible-Italic-102.woff") format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: url("WOFF/SpaceMono-Regular-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: url("WOFF/SpaceMono-Bold-webfont.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: url("WOFF/SpaceMono-BoldItalic-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SpaceMono";
+  src: url("WOFF/SpaceMono-Italic-webfont.woff") format('woff');
+  font-style: italic;
+}
