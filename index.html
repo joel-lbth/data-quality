@@ -358,7 +358,7 @@ joe leach<br>data architect<br>enterprise architecture team
 <section id="section" class="slide level2" data-background-image="joe.jpg" data-background-opacity="0.4">
 <h2></h2>
 
-<img data-src="action-plan.png" class="r-stretch quarto-figure-center"><p class="caption"><span style="background-color:white">Quality street</span> <span class="citation" data-cites="ukgovdqf">(see <a href="#/bibliography" role="doc-biblioref" onclick=""><span>“<span>T</span>he <span>G</span>overnment <span>D</span>ata <span>Q</span>uality <span>F</span>ramework: Guidance — Gov.uk”</span></a>)</span></p></section>
+<img data-src="action-plan.png" class="r-stretch quarto-figure-center"><p class="caption"><span style="background-color:white">Quality street</span> <span class="citation" data-cites="ukgovdqf">(see <a href="#/references" role="doc-biblioref" onclick=""><span>“<span>T</span>he <span>G</span>overnment <span>D</span>ata <span>Q</span>uality <span>F</span>ramework: Guidance — Gov.uk”</span></a>)</span></p></section>
 <section>
 <section id="identify-critical-data" class="title-slide slide level1 center" data-background-image="graph.png" data-background-color="#333">
 <h1>🔎 Identify critical data</h1>
@@ -372,7 +372,7 @@ joe leach<br>data architect<br>enterprise architecture team
 <section id="find-data-driving-operational-success---waste-emergency-example" class="slide level2" data-background-image="graph-waste.png" data-background-color="#333">
 <h2>🔎 Find data driving operational success - waste emergency example</h2>
 
-<img data-src="index_files/figure-revealjs/90329962-1-image.png" class="r-stretch quarto-figure-center"><p class="caption">see <span class="citation" data-cites="oflog"><span>“<span>L</span>ocal <span>A</span>uthority <span>D</span>ata <span>E</span>xplorer - <span>D</span><span>L</span><span>U</span><span>H</span><span>C</span> <span>D</span>ata <span>D</span>ashboards — Oflog.data.gov.uk”</span></span></p></section>
+<img data-src="oflog.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="oflog">(see <a href="#/references" role="doc-biblioref" onclick=""><span>“<span>L</span>ocal <span>A</span>uthority <span>D</span>ata <span>E</span>xplorer - <span>D</span><span>L</span><span>U</span><span>H</span><span>C</span> <span>D</span>ata <span>D</span>ashboards — Oflog.data.gov.uk”</span></a>)</span></p></section>
 <section id="find-data-driving-operational-success---waste-emergency-example-1" class="slide level2" data-background-image="graph-waste.png" data-background-color="#333">
 <h2>🔎 Find data driving operational success - waste emergency example</h2>
 <p>Successful operations have clarity on provision:</p>
@@ -396,7 +396,7 @@ joe leach<br>data architect<br>enterprise architecture team
 <h2>🔎 Find data that is vital for decision-making</h2>
 <p>The strategic plan records 52 key perf ormance indicators, key political decisions are made based on this data</p>
 
-<img data-src="index_files/figure-revealjs/e0a9a760-1-image.png" class="r-stretch"></section>
+<img data-src="strategic-kpi.png" class="r-stretch quarto-figure-center"><p class="caption">example KPIs showing that y2 recycling is below minimum acceptable levels and that missed collections data is missing</p></section>
 <section id="find-data-where-there-is-a-high-impact-of-low-quality" class="slide level2" data-background-image="graph.png" data-background-color="black">
 <h2>🔎 Find data where there is a high impact of low quality</h2>
 <ul>
@@ -415,23 +415,27 @@ joe leach<br>data architect<br>enterprise architecture team
 <li>Validity</li>
 <li>(In)accuracy</li>
 </ol>
-<p><span class="citation" data-cites="damadimensions">(see <a href="#/bibliography" role="doc-biblioref" onclick="">Askham et al. 2013</a>)</span></p>
+<p><span class="citation" data-cites="damadimensions">(see <a href="#/references" role="doc-biblioref" onclick="">Askham et al. 2013</a>)</span></p>
 </section>
 <section id="completeness" class="slide level2" data-background-image="flats-bw.jpg" data-background-color="black">
 <h2>✅ Completeness</h2>
 <style>
-.completeness li {
+.completeness blockquote {
   background-color:white; 
   color:black;
   opacity:.9;
 }
 </style>
 <div class="completeness">
-<ul>
-<li>A school collects forms from parents on emergency contact telephone numbers.</li>
-<li>There are 300 students, but 294 responses are collected and recorded.</li>
-<li><span class="smallcaps">completeness</span> = 294/300 x 100 = 98%</li>
-</ul>
+<blockquote>
+<p>A school collects forms from parents on emergency contact telephone numbers.</p>
+</blockquote>
+<blockquote>
+<p>There are 300 students, but 294 responses are collected and recorded.</p>
+</blockquote>
+<blockquote>
+<p><span class="smallcaps">completeness</span> = 294/300 x 100 = 98%</p>
+</blockquote>
 </div>
 </section>
 <section id="uniqueness" class="slide level2" data-background-image="dreams.jpg" data-background-color="black">
@@ -454,7 +458,7 @@ joe leach<br>data architect<br>enterprise architecture team
 <p>This includes <strong>Bob Tables</strong> and <strong>Bobby Tables</strong> as separate records, despite only one student at the school named <strong>Bob Tables</strong>.</p>
 </blockquote>
 <blockquote>
-<p>This shows that the data set has a uniqueness across all records of 500/501 x 100 = 99.8%</p>
+<p><span class="smallcaps">uniqueness</span> = 500/501 x 100 = 99.8%</p>
 </blockquote>
 </div>
 </section>
@@ -580,7 +584,7 @@ joe leach<br>data architect<br>enterprise architecture team
 <section>
 <section id="root-cause-analysis" class="title-slide slide level1 center">
 <h1>🌱 Root cause analysis</h1>
-<p><span class="citation" data-cites="ukgovdqf">(see <a href="#/bibliography" role="doc-biblioref" onclick=""><span>“<span>T</span>he <span>G</span>overnment <span>D</span>ata <span>Q</span>uality <span>F</span>ramework: Guidance — Gov.uk”</span></a>)</span></p>
+<p><span class="citation" data-cites="ukgovdqf">(see <a href="#/references" role="doc-biblioref" onclick=""><span>“<span>T</span>he <span>G</span>overnment <span>D</span>ata <span>Q</span>uality <span>F</span>ramework: Guidance — Gov.uk”</span></a>)</span></p>
 <ol type="1">
 <li>Log data quality problems
 <ol start="2" type="1">
@@ -614,9 +618,9 @@ joe leach<br>data architect<br>enterprise architecture team
 <section id="once-youve-got-to-quality-st.-theres-more-lines-to-ride" class="title-slide slide level1 center" data-background-image="data-map.png" data-background-size="contain" data-background-opacity="0.3">
 <h1>Once you’ve got to Quality St.&nbsp;there’s more lines to ride</h1>
 <ul>
-<li><span style="background-color:green; color:white">ethics</span> <span class="citation" data-cites="fiveSafes">(Five safes of data <a href="#/bibliography" role="doc-biblioref" onclick="">Desai et al. 2016</a>)</span></li>
-<li><span style="background-color:blue; color:white;">skills</span> <span class="citation" data-cites="ddatcapabilityframeworkDigitalData">(<a href="#/bibliography" role="doc-biblioref" onclick=""><span>“<span>D</span>igital, <span>D</span>ata and <span>T</span>echnology <span>P</span>rofession <span>C</span>apability <span>F</span>ramework”</span></a>)</span></li>
-<li><span style="background-color:magenta; color:white">access</span> <span class="citation" data-cites="fairPrinciples">(F.A.I.R data princples <a href="#/bibliography" role="doc-biblioref" onclick="">Wilkinson et al. 2016</a>)</span></li>
+<li><span style="background-color:green; color:white">ethics</span> <span class="citation" data-cites="fiveSafes">(Five safes of data <a href="#/references" role="doc-biblioref" onclick="">Desai et al. 2016</a>)</span></li>
+<li><span style="background-color:blue; color:white;">skills</span> <span class="citation" data-cites="ddatcapabilityframeworkDigitalData">(<a href="#/references" role="doc-biblioref" onclick=""><span>“<span>D</span>igital, <span>D</span>ata and <span>T</span>echnology <span>P</span>rofession <span>C</span>apability <span>F</span>ramework”</span></a>)</span></li>
+<li><span style="background-color:magenta; color:white">access</span> <span class="citation" data-cites="fairPrinciples">(F.A.I.R data princples <a href="#/references" role="doc-biblioref" onclick="">Wilkinson et al. 2016</a>)</span></li>
 </ul>
 </section>
 
@@ -625,8 +629,8 @@ joe leach<br>data architect<br>enterprise architecture team
 
 </section>
 
-<section id="bibliography" class="title-slide slide level1 smaller scrollable" data-background-image="jupiter-over-whitechapel-30-sep-2023.jpg" data-background-opacity="0.5" data-background-color="black">
-<h1>📚 Bibliography</h1>
+<section id="references" class="title-slide slide level1 smaller scrollable" data-background-image="jupiter-over-whitechapel-30-sep-2023.jpg" data-background-opacity="0.5" data-background-color="black">
+<h1>📚 References</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
 <div id="ref-damadimensions" class="csl-entry" role="doc-biblioentry">
 Askham, Nicola, Denise Cook, Martin Doyle, Helen Fereday, Mike Gibson, Ulrich Landbeck, Rob Lee, Chris Maynard, Gary Palmer, and Julian Schwarzenbach. 2013. <span>“The Six Primary Dimensions for Data Quality Assessment.”</span> <em>DAMA UK Working Group</em>, 432–35.
