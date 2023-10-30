@@ -1,6 +1,6 @@
 
 section:not(#title-slide) h1, section:not(#title-slide) h2 {
-  font-family: SpaceMono !important;
+  font-family: SpaceMono, monospace !important;
   font-size:larger !important
 }
 
