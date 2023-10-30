@@ -3,16 +3,24 @@ section:not(#title-slide) h1, section:not(#title-slide) h2 {
   font-family: SpaceMono !important;
   font-size:larger !important
 }
-li, blockquote {
+
+h1, h2 {
   background-color:white; 
-  color:black;
+  color: rgba(0, 0, 0, 1) !important;
+  opacity: .8;
+  padding:.9rem;
+}
+
+li, blockquote {
+  background-color:white !important; 
+  color: rgba(0, 0, 0, 1) !important;
   opacity:.9;
   padding:.9rem;
 }
 
 div.refs {
   background-color:white; 
-  color:black;
+  color: rgba(0, 0, 0, 1);
 }
 
 img {
